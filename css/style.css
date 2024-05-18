@@ -109,19 +109,19 @@
   width: 100%;
 }
 
-.delivered-meals {
+.platform-container {
   display: flex;
   align-items: center;
   gap: 1.6rem;
   margin-top: 8rem;
 }
-.delivered-imgs {
+.platform-imgs {
   display: flex;
 }
-.delivered-imgs img:last-child {
+.platform-imgs img:last-child {
   margin: 0;
 }
-.delivered-imgs img {
+.platform-imgs img {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   object-fit: contain;
   padding: 1.2rem;
@@ -131,11 +131,11 @@
   margin-right: -1.6rem;
   /* border: 3px solid #fdf2e9; */
 }
-.delivered-text {
+.platform-text {
   font-size: 1.8rem;
   font-weight: 600;
 }
-.delivered-text span {
+.platform-text span {
   color: #cf711f;
   font-weight: 700;
 }
@@ -220,25 +220,25 @@
   width: 35%;
 }
 /* ******************************************** */
-/* MEALS SECTION*/
+/* EDUCATION SECTION*/
 /* ******************************************** */
-.section-meals {
+.section-education {
   padding: 9.6rem 0;
 }
-.meal {
+.education {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
 }
-.meal:hover {
+.education:hover {
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
-.meal-content {
+.education-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
-.meal-tags {
+.education-tags {
   margin-bottom: 12px;
   display: flex;
   gap: 0.4rem;
@@ -252,45 +252,32 @@
   border-radius: 100px;
   font-weight: 600;
 }
-.tag--vegetarian {
-  background-color: #51cf66;
-}
-.tag--vegan {
-  background-color: #94d82d;
-}
-.tag--paleo {
-  background-color: #ffd43b;
-}
-.meal-title {
+.education-title {
   font-size: 2.4rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
-.meal_attributes {
+.education_attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.meal_attribute {
+.education_attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-.meal-icon {
+.education-icon {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
 }
-.meal-img {
+.education-img {
   width: 100%;
   height: 20rem;
-}
-.all-resipes {
-  text-align: center;
-  font-size: 1.8rem;
 }
 
 /* ******************************************** */
@@ -344,28 +331,28 @@
   transform: scale(1.1);
 }
 /* ******************************************** */
-/* PRICING SECTION*/
+/* ACHIEVEMENTS SECTION*/
 /* ******************************************** */
-.section-pricing {
+.section-achievements {
   padding: 9.6rem 0;
 }
-.pricing-plan {
+.achievements-plan {
   border-radius: 11px;
 
   width: 75%;
 }
-.pricing-plan--starter {
+.achievements-achievements--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
-.pricing-plan--complete {
+.achievements-achievements--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
-.pricing-plan--complete::after {
+.achievements-achievements--complete::after {
   content: "Best value";
   position: absolute;
   top: 6%;
@@ -378,11 +365,11 @@
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
-.plan-header {
+.achievements-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
-.plan-name {
+.achievements-name {
   color: #cf711f;
   font-weight: 600;
   font-size: 2rem;
@@ -390,27 +377,27 @@
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
-.plan-price {
+.achievements-plan {
   font-size: 6.2rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 1.6rem;
 }
-.plan-price span {
+.achievements-plan span {
   font-size: 3rem;
   font-weight: 500;
   margin-right: 0.8rem;
 }
-.plan-text {
+.achievements-text {
   font-size: 1.8rem;
   line-height: 1.6;
   color: #6f6f6f;
 }
-.plan-sing-up {
+.achievements-sing-up {
   text-align: center;
   margin-top: 4.8rem;
 }
-.plan-details {
+.achievements-details {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;

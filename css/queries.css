@@ -56,7 +56,7 @@
   .hero-img {
     width: 60%;
   }
-  .delivered-meals {
+  .platform-container {
     justify-content: center;
     margin-top: 3.2rem;
   }
@@ -67,7 +67,7 @@
   .step-number {
     font-size: 7.4rem;
   }
-  .meal-content {
+  .education-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
   .section-testimonials {
@@ -145,7 +145,7 @@
   .heading-secondary {
     margin-bottom: 4.8rem;
   }
-  .pricing-plan {
+  .achievements-plan {
     width: 100%;
   }
   .grid--footer {
